@@ -27,6 +27,9 @@ const inventory = [
  */
 function logNames(items) {
   // TODO: use `forEach`
+  inventory.forEach((element) => {
+    console.log(element);
+  });
 }
 
 /**
